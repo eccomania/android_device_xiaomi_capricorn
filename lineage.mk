@@ -14,5 +14,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="capricorn" \
     PRODUCT_NAME="capricorn" \
-    BUILD_FINGERPRINT="Xiaomi/natrium/natrium:6.0.1/MXB48T/V8.2.2.0.MBGMIDL:user/release-keys" \
-    PRIVATE_BUILD_DESC="natrium-user 6.0.1 MXB48T V8.2.2.0.MBGMIDL release-keys"
+    BUILD_FINGERPRINT="Xiaomi/capricorn/capricorn:6.0.1/MXB48T/V8.2.4.0.MAGCNDL:user/release-keys" \
+    PRIVATE_BUILD_DESC="capricorn-user 6.0.1 MXB48T V8.2.4.0.MAGCNDL release-keys"
