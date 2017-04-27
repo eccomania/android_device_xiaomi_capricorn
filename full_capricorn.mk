@@ -18,12 +18,12 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from natrium device
-$(call inherit-product, device/xiaomi/natrium/device.mk)
+# Inherit from capricorn device
+$(call inherit-product, device/xiaomi/capricorn/device.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := full_natrium
-PRODUCT_DEVICE := natrium
+PRODUCT_NAME := full_capricorn
+PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 5s Plus
+PRODUCT_MODEL := MI 5s
 PRODUCT_MANUFACTURER := Xiaomi
